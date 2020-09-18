@@ -2,9 +2,9 @@
 include_once (__DIR__."/WXBizMsgCrypt.php");
 
 // 假设企业号在公众平台上设置的参数如下
-$encodingAesKey = "EXPQpNLqwBxQ4Paknp2fSAtgyNpgypM4RP3Lra26QLS";
-$token = "05mQCTR";
-$receiveid = "wxe47a066672546da1";
+$encodingAesKey = "改成你自己的";
+$token = "改成你自己的";
+$receiveid = "改成你自己的";
 
 
 $sVerifyMsgSig = $_GET['msg_signature'];
