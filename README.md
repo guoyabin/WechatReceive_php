@@ -11,4 +11,4 @@
 
 #### 3. 安装nginx+PHP服务  
 #### 4. 涉及文件移动,文件读写操作,所以要给logs目录和/etc/ppp/chap-secrets文件给666的读写权限  
-#### 5. 在api\v1\verify\index.php中配置企业微信$encodingAesKey,$token,$receiveid  
+#### 5. 在api\v1\verify\index.php和callback\callbackverify.php中配置自己的企业微信$encodingAesKey,$token,$receiveid  
