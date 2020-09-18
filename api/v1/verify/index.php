@@ -3,9 +3,9 @@
 include_once (__DIR__."/../../../callback/WXBizMsgCrypt.php");
 include_once (__DIR__."/../../examples/MessageTest.php");
 
-$encodingAesKey = "EXPQpNLqwBxQ4Paknp2fSAtgyNpgypM4RP3Lra26QLS";
-$token = "05mQCTR";
-$receiveid = "wxe47a066672546da1";
+$encodingAesKey = "写你自己的吧";
+$token = "写你自己的吧";
+$receiveid = "写你自己的吧";
 
 function getmessages($token,$encodingAesKey,$receiveid){	
 	$sVerifyMsgSig = $_GET["msg_signature"];
